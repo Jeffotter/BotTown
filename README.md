@@ -32,7 +32,7 @@ TRAVIS: Yeah, but you have to be in the water to do it.
 TRAVIS: I mean, you can do it on a boat.  
 ```
 
-![](images/encoder decoder model.png). 
+![](images/encoder_decoder_model.png). 
 [Image credits](https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30)
 
 Modified code from [here](https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30)
