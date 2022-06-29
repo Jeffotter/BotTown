@@ -37,7 +37,25 @@ We then fine tuned each player model on 5 historical context and 1 response, whi
 
 ## Results
 If we take a look at a sample conversation, there is some entertaining, engaging dialogue between player chatbots:
+### Sample generated conversation #1
 
+```
+Prompt  Can you make me an explosive axe?
+LIAM: I'm not going to do that.
+TRAVIS: You can't do that, you're going to have to roll an attack.
+LIAM: That's a 19.
+MATT: Okay. You swing wide, and as you do, you see the blade streak across the back of its neck   
+and you can see the blood begin to pour out of its wound. It's bleeding profusely.
+SAM: Oh, it's bleeding?
+TALISON: It's just a little bit.
+SAM: I'm going to use the other one.
+LIAM: All right.
+TALISON: That's a natural 20.
+SAM: I'm going to try to hit the thing that's holding me.
+TALISON: Okay. You're going to hit it?
+```
+
+### Sample generated conversation #2
 ```
 Prompt  Oh no. 
 SAM: Oh no! 
@@ -54,6 +72,6 @@ SAM: Yeah, but you can't do it underwater.  There's no--
 ```
 
 
-
+## Credits
 Modified code from [here](https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30)
 
