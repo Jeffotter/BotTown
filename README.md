@@ -28,7 +28,7 @@ This repository contains notebooks for  training the transformer model (`noteboo
 We downloaded and processed the Critical Role transcript podcast text data from [here](https://criticalrole.fandom.com/wiki/Transcripts). Critical Role is an American web series in which a group of professional voice actors play Dungeons & Dragons.  `data/train.csv` contains the compiled transcript data in a csv format. The csv rows are ordered and have the columns Dungeon Master (DM), question, Player, Response. Further preprocessing is done to get the data into 5 historical context and response format.
 
 ## Model
-We used the Hugging Face transformers library and used transfer learning from Microsoft’s Large-scale Pretrained Response Generation Model (DialoGPT) that has been pretrained on 147M dialogue form Reddit. The model is based on the GPT-2 model.
+We used the Hugging Face transformers library and used transfer learning from Microsoft’s Large-scale Pretrained Response Generation Model (DialoGPT) that has been pretrained on 147M dialogue from Reddit. The model is based on the GPT-2 model.
 
 ![](images/encoder_decoder_model.png)   
 [Image credits](https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30)
@@ -71,6 +71,53 @@ TRAVIS: I mean, you can do it on a boat.
 SAM: Yeah, but you can't do it underwater.  There's no--
 ```
 
+
+
+
+
+### Sample generated conversation #3
+![](images/bottown.gif)   
+
+Diffusion of knowledge: Marisha (purple) tells Travis (red) about Patient Defense and then in the next conversation, Travis tells Matt (green) about Patient Defense.
+
+
+```
+TRAVIS-MARISHA Conversation
+TRAVIS: We're going to get the f*** out of here.
+MARISHA: Oh my god.
+TRAVIS: You're going in the water?
+MARISHA: I'm going to swim in the lava.
+TRAVIS: Okay.
+MARISHA: And I'm gonna swim in lava. I'm just going to float in the water.
+TRAVIS: I'm going to swim in the lava.
+MARISHA: Okay.
+TRAVIS: (whispering) Let's go.
+MARISHA: All right.
+TRAVIS: What?
+MARISHA: You know, I'm not sure.
+TRAVIS: Oh, that's good.
+MARISHA: That's good, that is good. That's a natural 20.
+TRAVIS: Yeah, that hits.
+MARISHA: And then I'm going to do Patient Defense.
+TRAVIS: Okay.
+MARISHA: I'm gonna do Patient Def.
+_______________________________________
+TRAVIS-MATT Conversation
+TRAVIS: Patient Defense, I'm going for it.
+MATT: Okay, so Patient Defense.
+TRAVIS: I'm not going to roll for that.
+MATT: All right, so, Patient Defense, that's your action.
+TRAVIS: Patient Defense.
+MATT: That's your movement.
+TRAVIS: Yeah, I'll move up to the other side of the room.
+MATT: Okay.
+TRAVIS: I'll go to the door.
+MATT: All right.
+TRAVIS: What's the matter with you?
+MATT: I don't know.
+TRAVIS: We're not here to judge.
+MATT: Oh, we're not?
+```
 
 ## Credits
 Modified code from [here](https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30)
