@@ -78,7 +78,7 @@ SAM: Yeah, but you can't do it underwater.  There's no--
 ### Sample generated conversation #3
 ![](images/bottown.gif)   
 
-Diffusion of knowledge: Marisha (purple) tells Travis (red) about Patient Defense and then in the next conversation, Travis tells Matt (green) about Patient Defense.
+Here we demonstrate diffusion of knowledge: When Marisha (purple) "runs into" Travis (red), Marisha tells Travis (red) about Patient Defens. When Travis "runs into Matt (green) then in the next conversation, Travis tells Matt about Patient Defense.
 
 
 ```
