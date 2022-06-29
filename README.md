@@ -6,7 +6,8 @@
 -It must contain a nice notebook walking through the code of your project.  
 -Any code/scripts/models written/developed for the project.  
 -Slides for your presentation.  
--A ReadMe that is 1) neat 2) clearly explains the project, the goal, and the outcome 3) has at least one visualization/picture of some kind. 
+-A ReadMe that is 1) neat 2) clearly explains the project, the goal, and the outcome 3) has at least one visualization/picture of some kind.   
+**can put video/gif of video in repository
 # delete up to here  
 
 -----
