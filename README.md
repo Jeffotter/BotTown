@@ -13,7 +13,7 @@
 
 Contributors: Christopher Pang, Jeffery Ott
 
-Our goal: We built a town of generative chatbots that have fantasy conversations about Dungeons and Dragons (DnD). We hope that this project will stimulate further interests in delving deeper into natural language processing techniques and building conversational AI systems that one day can play DnD alongside people.
+Our goal: We built a town of generative chatbots that have fantasy conversations about Dungeons and Dragons (DnD). We hope that this project will stimulate further interests in delving deeper into natural language processing (NLP)/Seq2Seq modeling techniques and building conversational AI systems that one day can play DnD alongside people.
 
 Each bot is trained on a different character corpus. During the “day” the bots move randomly around the “town” and have conversations whenever they interact, these conversations are stored.
 
