@@ -12,8 +12,7 @@ Each bot is trained on a different character corpus. During the “day” the bo
 ## Repository
 This repository contains notebooks for  training the transformer model (`notebooks/BotTown.ipynb`) and making inferences on the model (`notebooks/Botown_village.ipynb`). We also include the `data` used and presentation `slides` associated with this project.
 
-![](images/project_workflow.png)   
-
+![](images/project_workflow.png)
 ## Data
 We downloaded and processed the Critical Role transcript podcast text data from [here](https://criticalrole.fandom.com/wiki/Transcripts). Critical Role is an American web series in which a group of professional voice actors play Dungeons & Dragons.  `data/train.csv` contains the compiled transcript data in a csv format. The csv rows are ordered and have the columns Dungeon Master (DM), question, Player, Response. Further preprocessing is done to get the data into 5 historical context and response format.
 
@@ -24,6 +23,9 @@ We used the Hugging Face transformers library and used transfer learning from Mi
 [Image credits](https://jalammar.github.io/illustrated-gpt2/)
 
 We then fine tuned each player model on 5 historical context and 1 response, which was from 900k lines of Critical Role podcast.![](images/context_response.png)   
+
+Trained player models can be downloaded [here](https://drive.google.com/drive/folders/1R_WZYQ5BsGPTlSrm_g6Inwph8xZw0Bpq?usp=sharing)
+
 
 ## Results
 If we take a look at a sample conversation, there is some entertaining, engaging dialogue between player chatbots:
